@@ -93,7 +93,9 @@
     }
     /* 모바일 브라우저 // 창 width가 1200px 보다 작아지는 순간부터 적용 */
     @media all and (max-width: 1200px){
-   
+      .ttresponsive .ttlist {
+        display: none;
+      }
     }
   </style>
   
